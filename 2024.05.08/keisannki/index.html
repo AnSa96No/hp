@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<title>消費税の電卓計算</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="./css/custom.css">
+
+</head>
+<body>
+	<p><a href="../index.html">ホームページへ戻る</a></p>
+	<h1>消費税の電卓計算</h1>
+	<p>
+		税抜価格を入力<br>
+		<input type="text" id="my_input"> 
+	</p>
+
+	<p>
+		<button id="my_btn">計算する</button>
+	</p><br>
+
+	<p id="en_box">
+		<select id="my_select">
+			<option name="zeiritu" >8%</option>
+			<option name="zeiritu" >10%</option>
+		</select>
+	</p>
+
+	<p id="en_txt">
+		消費税:<strong id="my_tax">*</strong>円
+	</p>
+
+	<p id="en_txt">
+		税込価格:<strong id="my_total">*</strong>円
+	</p>
+	
+	
+	<!-- JavaScript -->
+	<script src="//cdn.jsdelivr.net/npm/howler@2.2.3/dist/howler.js"></script>
+	<script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
